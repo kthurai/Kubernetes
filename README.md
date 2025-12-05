@@ -23,6 +23,17 @@ REVISION  CHANGE-CAUSE
 1         <none>
 2         <none>
 
+ethukok@ethukok-Rampage-Extreme:~/GitHub/Kubernetes/YAML/Deployments$ k config get-clusters 
+NAME
+rancher-desktop
+
+ethukok@ethukok-Rampage-Extreme:~/GitHub/Kubernetes/YAML/Deployments$ k config get-contexts 
+CURRENT   NAME              CLUSTER           AUTHINFO          NAMESPACE
+*         rancher-desktop   rancher-desktop   rancher-desktop   
+
+
+ethukok@ethukok-Rampage-Extreme:~/GitHub/Kubernetes/YAML/Deployments$ k config set-context rancher-desktop 
+Context "rancher-desktop" modified.
 
 </pre>
 
