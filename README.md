@@ -35,5 +35,14 @@ CURRENT   NAME              CLUSTER           AUTHINFO          NAMESPACE
 ethukok@ethukok-Rampage-Extreme:~/GitHub/Kubernetes/YAML/Deployments$ k config set-context rancher-desktop 
 Context "rancher-desktop" modified.
 
+ethukok@ethukok-Rampage-Extreme:~/GitHub/Kubernetes/YAML/Deployments$ kubectl config view --minify | grep namespace:
+    namespace: mealie
+
+ethukok@ethukok-Rampage-Extreme:~/GitHub/Kubernetes/YAML/Deployments$ kubectl config set-context --current --namespace=mealie
+Context "rancher-desktop" modified.
+
+
+
+
 </pre>
 
