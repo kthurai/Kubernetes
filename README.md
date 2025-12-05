@@ -17,5 +17,12 @@ kube-node-lease   Active   24h
 kube-public       Active   24h
 kube-system       Active   24h
 
+$ kubectl rollout history deployment ngnix-deploy 
+deployment.apps/ngnix-deploy 
+REVISION  CHANGE-CAUSE
+1         <none>
+2         <none>
+
+
 </pre>
 
