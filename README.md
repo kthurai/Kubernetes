@@ -1,7 +1,7 @@
 
 <h3><a href="https://kubernetes.io/docs/home/">Kubernetes Documentation</h3>
 
-
+<pre>
 k config view --raw
 
 $ kubectl get pods -o wide
@@ -17,4 +17,5 @@ kube-node-lease   Active   24h
 kube-public       Active   24h
 kube-system       Active   24h
 
+</pre>
 
