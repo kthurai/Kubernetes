@@ -41,6 +41,8 @@ ethukok@ethukok-Rampage-Extreme:~/GitHub/Kubernetes/YAML/Deployments$ kubectl co
 ethukok@ethukok-Rampage-Extreme:~/GitHub/Kubernetes/YAML/Deployments$ kubectl config set-context --current --namespace=mealie
 Context "rancher-desktop" modified.
 
+ethukok@ethukok-Rampage-Extreme:~/GitHub/Kubernetes/YAML/Deployments$ k expose deployment frontend --port 8080
+Error from server (AlreadyExists): services "frontend" already exists
 
 
 
